@@ -14,3 +14,11 @@ html, body {
   background-color: #ffffff;
   height: 100%;
 }
+.pouch-container {
+  position: relative;
+  div {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+  }
+}
