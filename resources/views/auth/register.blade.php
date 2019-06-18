@@ -9,7 +9,13 @@
             @include('partials.form-group', [
                 'title' => __('Nom'),
                 'type' => 'text',
-                'name' => 'name',
+                'name' => 'lastname',
+                'required' => true,
+                ])
+            @include('partials.form-group', [
+                'title' => __('Prénom'),
+                'type' => 'text',
+                'name' => 'firstname',
                 'required' => true,
                 ])
             @include('partials.form-group', [
